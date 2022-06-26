@@ -1,0 +1,227 @@
+/* Parallax Pixel Stars */
+/* https://codepen.io/saransh/pen/BKJun */
+html {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+}
+
+input {
+  background-color: rgb(179, 175, 174);
+  height: 50px;
+  width: 158px;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.calc_button0 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button1 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button2 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button3 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button4 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button5 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button6 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button7 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button8 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button9 {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.calc_button_dot {
+  border-radius: 3;
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(179, 175, 174);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.func_button {
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(235, 145, 112);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+
+.func_button_add {
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(235, 145, 112);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.func_button_sub {
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(235, 145, 112);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.func_button_mul {
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(235, 145, 112);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.func_button_div {
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(235, 145, 112);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+.func_button_eq {
+  height: 50px;
+  width: 50px;
+  color: rgb(240, 237, 237);
+  background-color: rgb(235, 145, 112);
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 10px;
+}
+#title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "lato", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+#title span {
+  background: -webkit-linear-gradient(white, #38495a);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}

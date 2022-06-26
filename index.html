@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculator</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/css/style.css" />
+    <style>
+      body {
+        background-color: black;
+      }
+
+      /* .jumbotron {
+        background: #000000 url("static/images/") no-repeat bottom left;
+        background-size: 100% 100%;
+      } */
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron" style="text-align:center">
+        <h2>Calculator 1.0</h2>
+        <!-- <h3>Episode: <span class="star-wars"></span></h3> -->
+        <div class="row">
+          <!-- <div class="col-md-offset-4 col-md-4"><h3 class="counter" class ="col-md-3">0</h3>
+            <button class="func_button" class ="col-md-1">C</button>
+          </div> -->
+          <!-- <div class="col-md-offset-4 col-md-4">
+          <h3 class="counter" class ="col-md-3">0</h3>
+            <button class="func_button" class ="col-md-1">C</button>
+          </div> -->
+
+        </div>
+        <div class="row">
+          <div class="col-md-offset-4 col-md-4">
+          <input class="counter" class ="col-md-offset-4 col-md-3"></input>
+            <button class="func_button" class ="col-md-1">C</button>
+          </div>
+          <div class="col-md-offset-4 col-md-4">
+            <button type="button" class="calc_button7">
+              7
+            </button>
+            <button type="button" class="calc_button8">
+               8
+            </button>
+            <button type="button" class="calc_button9">
+              9
+            </button>
+            <button type="button" class="func_button_div">
+              ÷
+            </button>
+          </div>
+          <div class="col-md-offset-4 col-md-4">
+            <button type="button" class="calc_button4">
+              4
+            </button>
+            <button type="button" class="calc_button5">
+             5
+            </button>
+            <button type="button" class="calc_button6">
+              6
+            </button>
+            <button type="button" class="func_button_mul">
+              x
+            </button>
+          </div>
+          <div class="col-md-offset-4 col-md-4">
+            <button type="button" class="calc_button1">
+              1
+            </button>
+            <button type="button" class="calc_button2">
+              2
+            </button>
+            <button type="button" class="calc_button3">
+              3
+            </button>
+            <button type="button" class="func_button_sub">
+              -
+            </button>
+          </div>
+          <div class="col-md-offset-4 col-md-4">
+            <button type="button" class="calc_button0">
+              0
+            </button>
+            <button type="button" class="calc_button_dot">
+              .
+            </button>
+            <button type="button" class="func_button_eq">
+              =
+            </button>
+            <button type="button" class="func_button_add">
+              +
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="static/js/app.js"></script>
+  </body>
+</html>
